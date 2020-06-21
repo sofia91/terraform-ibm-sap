@@ -15,3 +15,5 @@ variable "resource_group" {
   type        = string
   default     = "Default"
 }
+
+variable "ibmcloud_api_key"{} 
