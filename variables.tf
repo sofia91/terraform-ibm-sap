@@ -13,5 +13,5 @@ variable "vpc_name" {
 variable "resource_group" {
   description = "Group for default"
   type        = string
-  default     = "grouptest"
+  default     = "Default"
 }
