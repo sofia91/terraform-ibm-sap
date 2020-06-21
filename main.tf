@@ -1,8 +1,8 @@
-/*provider "ibm" {
-  ibmcloud_api_key = var.ibmcloud_api_key
-  generation = 1
+provider "ibm" {
+   generation = 1
   region = var.region
 }
+/*
 resource "ibm_is_vpc" "vpc1" {
   name = "vpc1"
 }*/

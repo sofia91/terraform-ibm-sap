@@ -1,3 +1,9 @@
+variable "region" {
+  description = "Region for default"
+  type        = string
+  default     = "us-south-1"
+}
+
 variable "vpc_name" {
   description = "Name for vpc"
   type        = string
@@ -7,5 +13,5 @@ variable "vpc_name" {
 variable "resource_group" {
   description = "Group for default"
   type        = string
-  default     = "Default"
+  default     = "grouptest"
 }
