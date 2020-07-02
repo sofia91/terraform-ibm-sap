@@ -1,7 +1,7 @@
 variable "region" {
   description = "Region for default"
   type        = string
-  default     = "us-south-1"
+  default     = "eu-central"
 }
 
 variable "vpc_name" {
