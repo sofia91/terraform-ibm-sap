@@ -32,7 +32,7 @@ plan              = "standard"
 location          = "global"
 }
 resource "ibm_cos_bucket" "standard-ams03" {
-bucket_name          = "1mybucket1"
+bucket_name          = "aremola655"
 resource_instance_id = ibm_resource_instance.cos_instance.id
 region_location      = "us-south"
 storage_class        = "standard"
