@@ -12,7 +12,7 @@
   "x-fp-apiPrefix": "/card-management",
   "x-fp-health": "http://card-management:8080/healthz",
   "schemes": [
-    "http"
+    "https"
   ],
   "host": "checkout-service-cert1-es.mytelco.io",
   "basePath": "/card-management/v2",
