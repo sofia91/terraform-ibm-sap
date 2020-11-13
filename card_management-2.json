@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Card Management - DRAFT VERSION",
+    "title": "Card Management",
     "description": "Allows to get information of Tokenized Cards of a given user stored by the OB, to create (save) or delete a Tokenized Card, and to check whether a given user is blacklisted to make payments with his/her Tokenized Cards.\n\n# Relevant Definitions and concepts\n\n- **Tokenized Card**: Credit or debit Card stored in OB Card storage solution. The information saved is a token valid for doing payments with the card together with metadata needed to identify the card.\n\n# API Functionality\n\n This API allows to retrieve the Tokenized Cards stored by the OB associated to a given user, as well as to save a new Tokenized Card for a User, to delete a existing Tokenized Card, and finally to check blacklisting status of a user for the use of his/her Tokenized Cards.\n\n# Resources and Operations overview\n\n There are four resources in the API:\n- One to retrieve saved tokenized cards, which provides the list of stored cards, providing for each the token together with metadata to describe the card as well as some other info such as the which is the default one.\n- Another to request the storage of a new Tokenized card for the user.\n- A third one to request the deletion of a Tokenized Card.\n- Finally a resource to check blacklisting status of a given user for making payments with his/her Tokenized Cards.\n\n Resource in the API can be used in 3-legged mode. When accessed in 3 legged mode, the URI param {user_id} should be substituted by the special keyword ‘me’.\n\n# Further Info and Support\nFind answers to Frequently Asked Questions in **https://qna.baikalplatform.com/c/api-faq**.\n\n Topics with the **tag 'tokenized card'** are specific for Card Management API.",
     "version": "2.1.0",
     "contact": {
@@ -10,7 +10,6 @@
     }
   },
   "x-fp-apiPrefix": "/card-management",
-  "x-fp-health": "http://card-management:8080/healthz",
   "schemes": [
     "https"
   ],
