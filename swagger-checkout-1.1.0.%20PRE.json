@@ -11,6 +11,7 @@
         }
     },
     "x-fp-apiPrefix": "/checkout",
+    "x-fp-health": " https://checkout-service-cert1-es.mytelco.io/checkout/healthz",
     "host": "checkout-service-cert1-es.mytelco.io",
     "basePath": "/checkout/v1",
     "tags": [
