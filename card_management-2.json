@@ -10,6 +10,7 @@
     }
   },
   "x-fp-apiPrefix": "/card-management",
+  "x-fp-health": "https://checkout-service-cert1-es.mytelco.io/card-management/healthz",
   "schemes": [
     "https"
   ],
